@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="glasbyscheduler.view_controller.AppointmentDialogController">
+   <children>
+      <Pane layoutX="2.0" layoutY="1.0" prefHeight="600.0" prefWidth="276.0" style="-fx-background-color: lightgrey;">
+         <children>
+            <TableView fx:id="customerTable" layoutX="8.0" layoutY="18.0" prefHeight="479.0" prefWidth="263.0">
+              <columns>
+                <TableColumn fx:id="customerIdColumn" prefWidth="75.0" text="Customer ID" />
+                <TableColumn fx:id="customerNameColumn" prefWidth="186.0" text="Customer Name" />
+              </columns>
+            </TableView>
+            <Button layoutX="42.0" layoutY="531.0" mnemonicParsing="false" onAction="#handleCalendarScreen" prefHeight="25.0" prefWidth="184.0" text="View Calendar" />
+         </children></Pane>
+      <Pane layoutX="278.0" layoutY="-3.0" prefHeight="601.0" prefWidth="371.0">
+         <children>
+            <Label layoutX="16.0" layoutY="99.0" text="Date" />
+            <DatePicker fx:id="datePicker" layoutX="106.0" layoutY="95.0" prefHeight="25.0" prefWidth="252.0" />
+            <Button layoutX="118.0" layoutY="553.0" mnemonicParsing="false" onAction="#handleSave" prefHeight="25.0" prefWidth="99.0" text="Save" />
+            <Button layoutX="247.0" layoutY="553.0" mnemonicParsing="false" onAction="#handleCancel" prefHeight="25.0" prefWidth="91.0" text="Cancel" />
+            <Label layoutX="16.0" layoutY="143.0" text="Location" />
+            <ComboBox fx:id="cbxDescription" layoutX="98.0" layoutY="183.0" prefHeight="25.0" prefWidth="263.0" />
+            <Label layoutX="14.0" layoutY="187.0" text="Description" />
+            <Label layoutX="14.0" layoutY="26.0" text="Title" />
+            <TextField fx:id="titleField" layoutX="103.0" layoutY="22.0" prefHeight="25.0" prefWidth="252.0" />
+            <TextField fx:id="urlField" layoutX="103.0" layoutY="57.0" prefHeight="25.0" prefWidth="252.0" />
+            <Label layoutX="18.0" layoutY="61.0" text="URL" />
+            <Label layoutX="128.0" layoutY="273.0" prefHeight="17.0" prefWidth="134.0" text="Appointment Start Time" />
+            <Label layoutX="134.0" layoutY="402.0" text="Appointment End Time" />
+            <Pane layoutX="14.0" layoutY="427.0" prefHeight="79.0" prefWidth="172.0" style="-fx-background-color: lightgrey;">
+               <children>
+                  <Label layoutX="21.0" layoutY="14.0" text="Hour" />
+                  <ComboBox fx:id="cbxEndHour" layoutX="11.0" layoutY="40.0" prefWidth="150.0" />
+               </children>
+            </Pane>
+            <Pane layoutX="192.0" layoutY="427.0" prefHeight="79.0" prefWidth="172.0" style="-fx-background-color: lightgrey;">
+               <children>
+                  <Label layoutX="21.0" layoutY="14.0" text="Minute" />
+                  <ComboBox fx:id="cbxEndMinute" layoutX="11.0" layoutY="40.0" prefWidth="150.0" />
+               </children>
+            </Pane>
+            <Pane layoutX="195.0" layoutY="301.0" prefHeight="79.0" prefWidth="172.0" style="-fx-background-color: lightgrey;">
+               <children>
+                  <Label layoutX="21.0" layoutY="14.0" text="Minute" />
+                  <ComboBox fx:id="cbxStartMinute" layoutX="11.0" layoutY="40.0" prefWidth="150.0" />
+               </children>
+            </Pane>
+            <Pane layoutX="12.0" layoutY="301.0" prefHeight="79.0" prefWidth="172.0" style="-fx-background-color: lightgrey;">
+               <children>
+                  <Label layoutX="21.0" layoutY="14.0" text="Hour" />
+                  <ComboBox fx:id="cbxStartHour" layoutX="11.0" layoutY="40.0" prefWidth="150.0" />
+               </children>
+            </Pane>
+            <TextField fx:id="locationField" layoutX="109.0" layoutY="139.0" prefHeight="25.0" prefWidth="252.0" />
+            <TextField fx:id="contactField" layoutX="109.0" layoutY="220.0" prefHeight="25.0" prefWidth="252.0" />
+            <Label layoutX="15.0" layoutY="224.0" text="Contact" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

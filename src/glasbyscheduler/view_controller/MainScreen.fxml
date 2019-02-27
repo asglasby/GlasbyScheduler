@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="glasbyscheduler.view_controller.MainController">
+   <children>
+      <Pane layoutX="42.0" layoutY="150.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <SplitPane dividerPositions="0.5" layoutX="7.0" layoutY="7.0" prefHeight="308.0" prefWidth="586.0">
+              <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                     <children>
+                        <Label layoutX="40.0" layoutY="14.0" text="Customer" />
+                        <TableView fx:id="customerTable" layoutX="14.0" layoutY="31.0" prefHeight="200.0" prefWidth="253.0">
+                          <columns>
+                            <TableColumn fx:id="customerNameColumn" prefWidth="117.0" text="Customer Name" />
+                            <TableColumn fx:id="customerPhoneColumn" prefWidth="133.0" text="Customer Phone" />
+                          </columns>
+                        </TableView>
+                        <Button layoutX="21.0" layoutY="247.0" mnemonicParsing="false" onAction="#handleAddCustomer" text="Add" />
+                        <Button layoutX="98.0" layoutY="247.0" mnemonicParsing="false" onAction="#handleEditCustomer" text="Modify" />
+                        <Button layoutX="196.0" layoutY="247.0" mnemonicParsing="false" onAction="#handleDeleteCustomer" text="Delete" />
+                     </children>
+                  </AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="226.0" prefWidth="226.0">
+                     <children>
+                        <Label layoutX="52.0" layoutY="14.0" text="Appointments" />
+                        <TableView fx:id="appointmentTable" layoutX="14.0" layoutY="31.0" prefHeight="200.0" prefWidth="259.0">
+                          <columns>
+                            <TableColumn fx:id="appointmentTypeColumn" prefWidth="135.0" text="Appointment Type" />
+                            <TableColumn fx:id="customerIdColumn" prefWidth="121.0" text="Customer ID" />
+                          </columns>
+                        </TableView>
+                        <Button layoutX="33.0" layoutY="240.0" mnemonicParsing="false" onAction="#handleAddAppointment" text="Add" />
+                        <Button layoutX="94.0" layoutY="240.0" mnemonicParsing="false" onAction="#handleModifyAppointment" prefHeight="25.0" prefWidth="76.0" text="Modify" />
+                        <Button layoutX="189.0" layoutY="240.0" mnemonicParsing="false" onAction="#handleDeleteAppointment" text="Delete" />
+                        <Button layoutX="14.0" layoutY="273.0" mnemonicParsing="false" onAction="#handleCalendarScreen" text="Monthly Calendar" />
+                        <Button layoutX="145.0" layoutY="273.0" mnemonicParsing="false" onAction="#handleWeeklyCalendarScreen" prefHeight="25.0" prefWidth="117.0" text="Weekly Calendar" />
+                     </children>
+                  </AnchorPane>
+              </items>
+            </SplitPane>
+            <Button layoutX="102.0" layoutY="321.0" mnemonicParsing="false" onAction="#handleAppointmentCountScreen" prefHeight="25.0" prefWidth="176.0" text="Appointment Types Report" />
+            <Button layoutX="102.0" layoutY="354.0" mnemonicParsing="false" onAction="#handleConsultantScheduleScreen" prefHeight="25.0" prefWidth="176.0" text="Consultants' Schedule Report" />
+            <Button layoutX="308.0" layoutY="321.0" mnemonicParsing="false" onAction="#handleCustmerAppointmentScreen" prefHeight="25.0" prefWidth="183.0" text="Customer Appointment Report" />
+            <Button layoutX="308.0" layoutY="354.0" mnemonicParsing="false" onAction="#handleLoginActivity" prefHeight="25.0" prefWidth="183.0" text="User Activity Log" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="glasbyscheduler.view_controller.CalendarDialogController">
+   <children>
+      <Pane layoutX="484.0" layoutY="24.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText4" layoutX="15.0" layoutY="40.0" prefHeight="64.0" prefWidth="116.0" />
+            <Label fx:id="label4" layoutX="45.0" layoutY="18.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="641.0" layoutY="24.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText5" layoutX="15.0" layoutY="40.0" prefHeight="64.0" prefWidth="116.0" />
+            <Label fx:id="label5" layoutX="62.0" layoutY="14.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="13.0" layoutY="157.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText8" layoutX="27.0" layoutY="31.0" prefHeight="73.0" prefWidth="116.0" />
+            <Label fx:id="label8" layoutX="59.0" layoutY="6.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="799.0" layoutY="24.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText6" layoutX="15.0" layoutY="41.0" prefHeight="64.0" prefWidth="116.0" />
+            <Label fx:id="label6" layoutX="55.0" layoutY="16.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="168.0" layoutY="157.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText9" layoutX="15.0" layoutY="31.0" prefHeight="73.0" prefWidth="116.0" />
+            <Label fx:id="label9" layoutX="59.0" layoutY="6.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="13.0" layoutY="284.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText15" layoutX="28.0" layoutY="26.0" prefHeight="73.0" prefWidth="116.0" />
+            <Label fx:id="label15" layoutX="60.0" layoutY="4.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="168.0" layoutY="284.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText16" layoutX="15.0" layoutY="31.0" prefHeight="73.0" prefWidth="116.0" />
+            <Label fx:id="label16" layoutX="46.0" layoutY="8.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="955.0" layoutY="24.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText7" layoutX="2.0" layoutY="44.0" prefHeight="58.0" prefWidth="116.0" />
+            <Label fx:id="label7" layoutX="29.0" layoutY="15.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="328.0" layoutY="157.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText10" layoutX="25.0" layoutY="34.0" prefHeight="64.0" prefWidth="116.0" />
+            <Label fx:id="label10" layoutX="61.0" layoutY="16.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="484.0" layoutY="157.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText11" layoutX="19.0" layoutY="30.0" prefHeight="73.0" prefWidth="116.0" />
+            <Label fx:id="label11" layoutX="67.0" layoutY="7.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="641.0" layoutY="157.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText12" layoutX="15.0" layoutY="31.0" prefHeight="73.0" prefWidth="116.0" />
+            <Label fx:id="label12" layoutX="57.0" layoutY="8.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="799.0" layoutY="157.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText13" layoutX="15.0" layoutY="31.0" prefHeight="73.0" prefWidth="116.0" />
+            <Label fx:id="label13" layoutX="57.0" layoutY="13.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="955.0" layoutY="157.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText14" layoutX="6.0" layoutY="31.0" prefHeight="73.0" prefWidth="116.0" />
+            <Label fx:id="label14" layoutX="48.0" layoutY="11.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="328.0" layoutY="284.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText17" layoutX="15.0" layoutY="31.0" prefHeight="73.0" prefWidth="116.0" />
+            <Label fx:id="label17" layoutX="51.0" layoutY="2.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="484.0" layoutY="284.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText18" layoutX="15.0" layoutY="31.0" prefHeight="73.0" prefWidth="116.0" />
+            <Label fx:id="label18" layoutX="42.0" layoutY="4.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="641.0" layoutY="284.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText19" layoutX="15.0" layoutY="31.0" prefHeight="73.0" prefWidth="116.0" />
+            <Label fx:id="label19" layoutX="59.0" layoutY="4.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="793.0" layoutY="284.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText20" layoutX="15.0" layoutY="31.0" prefHeight="73.0" prefWidth="116.0" />
+            <Label fx:id="label20" layoutX="55.0" layoutY="10.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="955.0" layoutY="284.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText21" layoutX="21.0" layoutY="31.0" prefHeight="73.0" prefWidth="116.0" />
+            <Label fx:id="label21" layoutX="46.0" layoutY="6.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="168.0" layoutY="404.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText23" layoutX="24.0" layoutY="28.0" prefHeight="73.0" prefWidth="116.0" />
+            <Label fx:id="label23" layoutX="64.0" layoutY="6.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="328.0" layoutY="404.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText24" layoutX="15.0" layoutY="31.0" prefHeight="73.0" prefWidth="116.0" />
+            <Label fx:id="label24" layoutX="57.0" layoutY="6.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="484.0" layoutY="404.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText25" layoutX="15.0" layoutY="31.0" prefHeight="73.0" prefWidth="116.0" />
+            <Label fx:id="label25" layoutX="45.0" layoutY="5.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="641.0" layoutY="404.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText26" layoutX="23.0" layoutY="30.0" prefHeight="73.0" prefWidth="116.0" />
+            <Label fx:id="label26" layoutX="49.0" layoutY="5.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="793.0" layoutY="404.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText27" layoutX="15.0" layoutY="31.0" prefHeight="73.0" prefWidth="116.0" />
+            <Label fx:id="label27" layoutX="54.0" layoutY="13.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="955.0" layoutY="404.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText28" layoutX="15.0" layoutY="40.0" prefHeight="64.0" prefWidth="116.0" />
+            <Label fx:id="label28" layoutX="58.0" layoutY="10.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="13.0" layoutY="404.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText22" layoutX="15.0" layoutY="31.0" prefHeight="73.0" prefWidth="116.0" />
+            <Label fx:id="label22" layoutX="64.0" layoutY="4.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="955.0" layoutY="524.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText35" layoutX="15.0" layoutY="31.0" prefHeight="73.0" prefWidth="116.0" />
+            <Label layoutX="42.0" layoutY="5.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="793.0" layoutY="524.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText34" layoutX="15.0" layoutY="33.0" prefHeight="64.0" prefWidth="116.0" />
+            <Label layoutX="52.0" layoutY="11.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="13.0" layoutY="524.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText29" layoutX="15.0" layoutY="31.0" prefHeight="73.0" prefWidth="116.0" />
+            <Label fx:id="label29" layoutX="64.0" layoutY="5.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="168.0" layoutY="524.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText30" layoutX="15.0" layoutY="35.0" prefHeight="64.0" prefWidth="116.0" />
+            <Label fx:id="label30" layoutX="56.0" layoutY="5.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="328.0" layoutY="524.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText31" layoutX="15.0" layoutY="35.0" prefHeight="64.0" prefWidth="116.0" />
+            <Label fx:id="label31" layoutX="54.0" layoutY="9.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="484.0" layoutY="524.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText32" layoutX="15.0" layoutY="35.0" prefHeight="64.0" prefWidth="116.0" />
+            <Label layoutX="50.0" layoutY="5.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="641.0" layoutY="524.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText33" layoutX="15.0" layoutY="31.0" prefHeight="73.0" prefWidth="116.0" />
+            <Label layoutX="39.0" layoutY="13.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="13.0" layoutY="24.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText1" layoutX="15.0" layoutY="40.0" prefHeight="64.0" prefWidth="116.0" />
+            <Label fx:id="label1" layoutX="24.0" layoutY="6.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="168.0" layoutY="24.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText2" layoutX="17.0" layoutY="40.0" prefHeight="64.0" prefWidth="116.0" />
+            <Label fx:id="label2" layoutX="47.0" layoutY="14.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="328.0" layoutY="24.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText3" layoutX="15.0" layoutY="40.0" prefHeight="64.0" prefWidth="116.0" />
+            <Label fx:id="label3" layoutX="60.0" layoutY="12.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="641.0" layoutY="652.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText40" layoutX="15.0" layoutY="31.0" prefHeight="73.0" prefWidth="116.0" />
+            <Label layoutX="39.0" layoutY="13.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="484.0" layoutY="652.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText39" layoutX="15.0" layoutY="35.0" prefHeight="64.0" prefWidth="116.0" />
+            <Label layoutX="50.0" layoutY="5.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="328.0" layoutY="652.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText38" layoutX="15.0" layoutY="35.0" prefHeight="64.0" prefWidth="116.0" />
+            <Label fx:id="label311" layoutX="54.0" layoutY="9.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="168.0" layoutY="652.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText37" layoutX="15.0" layoutY="35.0" prefHeight="64.0" prefWidth="116.0" />
+            <Label fx:id="label301" layoutX="56.0" layoutY="5.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="13.0" layoutY="652.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText36" layoutX="15.0" layoutY="31.0" prefHeight="73.0" prefWidth="116.0" />
+            <Label fx:id="label291" layoutX="64.0" layoutY="5.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="793.0" layoutY="652.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText41" layoutX="15.0" layoutY="33.0" prefHeight="64.0" prefWidth="116.0" />
+            <Label layoutX="52.0" layoutY="11.0" text="Label" />
+         </children>
+      </Pane>
+      <Pane layoutX="955.0" layoutY="652.0" prefHeight="113.0" prefWidth="145.0" style="-fx-background-color: beige;">
+         <children>
+            <TextArea fx:id="calendarText42" layoutX="15.0" layoutY="31.0" prefHeight="73.0" prefWidth="116.0" />
+            <Label layoutX="42.0" layoutY="5.0" text="Label" />
+         </children>
+      </Pane>
+      <Label fx:id="labelMonthName" layoutX="401.0" layoutY="6.0" prefHeight="27.0" prefWidth="309.0" style="-fx-font-size: 18;" text="Label" />
+   </children>
+</AnchorPane>
